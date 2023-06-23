@@ -48,3 +48,15 @@ OCR was performed on the extracted ROI to read the odometer value. The performan
 <summary>9. Inference Pipeline</summary>
 An inference/prediction pipeline was created in a Python script named `test_predict.py`. This script read images from a test folder, applied the trained model to locate the odometer, extracted the ROI, and performed OCR using EasyOCR. The image name and its predicted odometer reading were stored in a pandas dataframe for evaluation.
 </details>
+
+## Results
+
+<table>
+ <tr>
+  <th>Dashboard Image</th>
+  <th>Reading</th>
+ </tr>
+<tr>
+ <td><img src="test_images/mountain.jpg" width="320px"/></td>
+ <td></td>
+</tr>
