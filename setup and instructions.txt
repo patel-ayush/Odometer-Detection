@@ -1,0 +1,28 @@
+Odometer Reading Detection and Prediction Setup Instructions
+(Follow these stesps inside odometer_reading_detection folder)
+
+Step 1: Install the required packages
+Firstly, you need to install the necessary Python packages. You can do this using pip. In the terminal, run:
+pip install -r requirements.txt
+Ensure that you're in the same directory as the requirements.txt file when running this command.
+
+Step 2: Train the model (Optional)
+Next, you need to train the YOLOv7 model for odometer detection. This can be done by running the Jupyter notebook odometer_detection_yolov7.ipynb.
+Ensure that your Python environment has the necessary packages to run Jupyter notebooks.
+
+Step 3: Download the best weights (Optional)
+Upon successful training of the model, download the best weights for the model. These weights will be used for making predictions.
+
+Step 4: Use the best weights in the prediction script (Optional)
+Ensure that the downloaded weights file is in the correct location as specified in the test_predictions.py script.
+
+Step 5: Run the prediction script
+You can now use the trained model to predict the odometer reading from new images. Put the images in a folder, for example, test_images.
+Run the prediction script with the command: " python test_predictions.py ./test_images "
+Ensure that the path to the images folder is correct.
+(if not working correctly replace "python" with "python3")
+
+Step 6: Check the predictions
+After running the prediction script, the predictions will be stored in a CSV file named prediction_reading.csv. You can open this file to see the image names and their corresponding predicted odometer readings.
+
+NOTE : steps 2-4 are optional, as the repository contains the default trained model weights loaded in the `test_prediction.py` file. You can skip to Step 5 after Step 1 if you want to use the default weights.
