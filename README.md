@@ -53,10 +53,42 @@ An inference/prediction pipeline was created in a Python script named `test_pred
 
 <table>
  <tr>
-  <th>Dashboard Image</th>
-  <th>Reading</th>
+  <th>Dashboard(Input image)</th>
+  <th>Odometer(YOLO output)</th>
+  <th>Reading(OCR output)</th>
  </tr>
 <tr>
- <td><img src="test_images/mountain.jpg" width="320px"/></td>
- <td></td>
+ <td><img src="https://drive.google.com/uc?id=1tin2e-x2QeyARfXM-YIfccJe0wri0G_a" width="320px"/>
+ <td><img src="https://drive.google.com/uc?id=1OGZc-iQqQGyHVhMImU8D14XwedCORpJi" width="320px"/>
+ <td>52563</td>
+</td>
+ <tr>
+ <td><img src="https://drive.google.com/uc?id=1NVdGq-_U6C5rrgiqW-1MzZdMO59A_jOw" width="320px"/>
+ <td><img src="https://drive.google.com/uc?id=1rUfKVJi1BYg-GOkrYJ9kCz6ztF46g4VV" width="320px"/>
+ <td>0864i2</td>
+</td>
+<tr>
+ <td><img src="https://drive.google.com/uc?id=17pMO7cvW1pB2bosnHJjcycBMUAGy_Qog" width="320px"/>
+ <td><img src="https://drive.google.com/uc?id=1uZyg_w8kW9Ucm0TjEdX_M4Lsw0oxW1sU" width="320px"/>
+ <td>24348</td>
+</td>
+<tr>
+ <td><img src="https://drive.google.com/uc?id=15QppMAp11psj9XiHikXOjlVf5gIIsVnQ" width="320px"/>
+ <td><img src="https://drive.google.com/uc?id=1EzPyKzATxlEA2dyvx_FTfMhrhiKsduJ8" width="320px"/>
+ <td>38613</td>
+</td>
+<tr>
+ <td><img src="https://drive.google.com/uc?id=1uFobIg-uQBdL7scHYfkduZlxw2qI7RlI" width="320px"/>
+ <td><img src="https://drive.google.com/uc?id=1iDyJh_y54tu2UgFoBaJjliihaG4zfJpS" width="320px"/>
+ <td>13557</td>
+</td>
+<tr>
+ <td><img src="https://drive.google.com/uc?id=19ooKeAc4NS78BZh0XIh5aUbueaaHbeoF" width="320px"/>
+ <td><img src="https://drive.google.com/uc?id=1ttdTkTir89oP95h19tgg4QZKPBtcWpI0" width="320px"/>
+ <td>34959</td>
+</tr>
+<tr>
+ <td><img src="https://drive.google.com/uc?id=1Fn6SRIAMmY5ifamNKXqQGMcCJ0UuY3Ie" width="320px"/>
+ <td><img src="https://drive.google.com/uc?id=1Q3ryq9kjgUG_D8-dkZ7l1865emHNKyJA" width="320px"/>
+ <td>34959</td>
 </tr>
